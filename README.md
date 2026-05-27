@@ -1,6 +1,6 @@
-# Agent Skills for Superpowers
+# Agent Skills
 
-Tập hợp các skills mở rộng cho Superpowers agent, giúp tự động hóa các tác vụ phát triển phần mềm.
+Tập hợp các skills mở rộng cho AI agent, giúp tự động hóa các tác vụ phát triển phần mềm.
 
 ## Skills
 
@@ -13,6 +13,13 @@ Hỗ trợ phỏng vấn stakeholders, thu thập yêu cầu BA và hoàn thiệ
 ### scene-by-scene
 Debug bugs và investigate errors bằng narrative format theo từng bước từ action của user đến điểm failure.
 
-## Sử dụng
+## Cấu hình
 
-Các skills này được load tự động khi cần trong quá trình làm việc với Superpowers agent.
+### OpenCode
+Copy thư mục skills vào `~/.agents/skills/` hoặc thư mục skills của project.
+
+### Claude Code
+Sử dụng `/skills` command hoặc cấu hình trong `.claude.json`.
+
+### Copilot CLI / Gemini CLI
+Tham khảo tài liệu platform để cài đặt skills tùy chỉnh.
